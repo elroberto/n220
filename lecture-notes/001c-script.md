@@ -1,7 +1,7 @@
-Writing a Javascript Program
+# Writing a Javascript Program
 
-# Content
+## Content
 
-# Presentation
+## Presentation
 
-# Behavior
+## Behavior
