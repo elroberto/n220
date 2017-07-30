@@ -28,7 +28,7 @@ It is important to note that BMW is not the object. Car is the object. We can ha
 
 In Javascript, Objects can have Events. Events are ways users interact with Objects. From a computational perspective, an Event is a way for the user to interrupt processing to do something else. If we stick to our Car object example from before, we can imagine a couple of events that may be useful. 
 
-Event | Action
+Event | Happens when
 ---- | ----
 brake | car slows down
 accelerate | car speeds up
@@ -37,7 +37,7 @@ accelerate | car speeds up
 
 Object methods are used to encapsulate similar chunks of programming logic. Typically they are used to get or set object properties, or manipulate the object in some other way. Let's create methods for our brake and accelerate events. 
 
-Method | Action
+Method | What it does
 ---- | ----
 changeSpeed() | Increases or decreases currentSpeed property
 
@@ -62,3 +62,16 @@ Object Instance | Document
 URL | http://google.com
 lastModified | 07/20/2017 10:13:00
 title | Google.com
+
+Since the browser `Window` loads the `Document` object, you may be curious if there are events or methods you would have access to on this object. There are! And because most modern web browsers implement the `Document` object in the same way, these properties are relatively consistent across browsers. 
+
+Event | Happens when
+---- | ----
+load | page and assets have finished loading
+click | user clicks mouse over page
+keypress | user presses down on a key
+
+Method | What it does
+---- | ----
+write() | adds new content to the document
+getElementById() | accesses an element when you state its id attribute
