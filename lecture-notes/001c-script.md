@@ -76,7 +76,7 @@ All we need to do is put that program logic in a JS file, then include it in our
   </head>
   <body>
     <h1>N220 Syllabuls</h1>
-    <a href="js/add-content.js">add-content.js</a>
+    <script type="text/javascript" src="js/add-content.js"></script>
     <p>This page contains the syllabus for N220</p>
   </body>
 </html>
