@@ -1,4 +1,4 @@
-# Variables and Arrays
+# Statements and Comments
 ## Introduction
 All languages have vocabulary and grammatical rules. That is, the rules that govern how they are interpreted. Javascript is no different. In fact, Javascript, and programming languages in general, have very specific rules that have to be adhered to. If not, the compiler, which is baked into the web browser, cannot interpret your program and will throw an error. 
 
