@@ -32,6 +32,10 @@ The first line in this script is a condition check. If the condition evaluates t
 var hourNow = today.getHours();
 
 //if later than 6pm, change greeting
+/*
+All of this is a comment
+line 2 of comments
+*/
 if (hourNow > 18) {
   document.write("Good Evening!");
 }
