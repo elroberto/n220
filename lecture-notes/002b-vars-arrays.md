@@ -86,7 +86,7 @@ a = a * 2; //6
 a = a / 3; //2
 ```
 
-## Incrementing/Decrementing/other shorthand
+### Incrementing/Decrementing Shorthand
 ```
 var a = 5;
 
