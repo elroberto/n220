@@ -31,3 +31,80 @@ colors = ['red', 'blue', 'yellow'];
 ```
 
 In the preceding array, `colors[0]` is red, `colors[2]` is yellow. Arrays always begin counting at 0. You can access array values by using the number or array key of the value you wish to access. You can access the length of an array by using the length property (ex. `colors.length`)
+
+## Operands
+You can do more with variables than just assign single values. Variable operands let you manipulate the values inside the variables.
+
+```
+var a = 4;
+var b = 2;
+
+//addition
+var c = a + b; //6
+
+//subtraction
+var d = a - b; // 2
+
+//multiplication
+var e = a * b; //8
+
+//division
+var f = a / b; //2
+
+//modulo
+var g = a % b; // 0
+```
+
+### Modulo
+Also Known As “remainder” The part left over after division
+
+```
+7 % 3 //1
+12 % 10 //2
+```
+
+Question
+Let’s say I have a variable myVar and I want to subtract 2 from it, and store that value back into the variable?
+
+How do I do that?
+
+## Incrementing/Decrementing
+
+```
+var a = 5;
+
+//incrementing
+a = a + 1; //a == 6
+
+//decrementing
+a = a - 3; //a == 3
+
+//multiplenting? (this and the next are not real words I just thought they were funny)
+a = a * 2; //6
+
+//divisiplexing?
+a = a / 3; //2
+Incrementing/Decrementing/other shorthand
+var a = 5;
+
+//incrementing
+a += 1; //a == 6
+
+//decrementing
+a -= 3; //a == 3
+
+//Multiplication
+a *= 2; //6
+
+//Division
+a /= 3; //2
+```
+
+## String Concatenation
+One can also use the plus sign to add strings together. This is called String concatenation.
+
+```
+var first = "Hello";
+var last = "World";
+var else = first + last; //'HelloWorld';
+```
