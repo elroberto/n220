@@ -2,13 +2,13 @@
 ## Variables
 Variables store values. They’re just names that point to a value. Values can be of the following types:
 
-* [Numbers](javascriptbook.com/c02/js/numeric-variable.js) 
-* [Strings](javascriptbook.com/c02/js/string-variable.js) (text)
-* [Booleans](javascriptbook.com/c02/js/boolean-variable.js) (true/false)
+* [Numbers](../javascriptbook.com/c02/js/numeric-variable.js) 
+* [Strings](../javascriptbook.com/c02/js/string-variable.js) (text)
+* [Booleans](../javascriptbook.com/c02/js/boolean-variable.js) (true/false)
 * HTML Elements
 * HTML Inputs
 
-You can use [shorthand](javascriptbook.com/c02/js/shorthand-variable.js) when declaring vars. And it seems obvious, but you can also [update variables](javascriptbook.com/c02/js/update-variable.js).
+You can use [shorthand](../javascriptbook.com/c02/js/shorthand-variable.js) when declaring vars. And it seems obvious, but you can also [update variables](../javascriptbook.com/c02/js/update-variable.js).
 
 ## Six Rules for Naming Variables 
 
