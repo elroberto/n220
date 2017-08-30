@@ -79,12 +79,15 @@ a = a + 1; //a == 6
 //decrementing
 a = a - 3; //a == 3
 
-//multiplenting? (this and the next are not real words I just thought they were funny)
+//multiplication
 a = a * 2; //6
 
-//divisiplexing?
+//division
 a = a / 3; //2
-Incrementing/Decrementing/other shorthand
+```
+
+## Incrementing/Decrementing/other shorthand
+```
 var a = 5;
 
 //incrementing
