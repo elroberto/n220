@@ -41,5 +41,5 @@ Here is an example of a function expression:
 ```
 var multipliedValue = (function() {
   return 8 * 13;
-}
+})
 ```
