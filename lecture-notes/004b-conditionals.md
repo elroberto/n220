@@ -85,41 +85,28 @@ switch (level) {
   title = 'No title';
   break;
 }
-var score = 75;    // Score
-var msg = '';      // Message
-
-function congratulate() {
-  msg += 'Congratulations! ';
-}
-
-if (score >= 50) {  // If score is 50 or more
-  congratulate();
-  msg += 'Proceed to the next round.';
-}
-
-var el = document.getElementById('answer');
-el.innerHTML = msg;
 ```
-
-How might we modify this for a condition where the score is less than 50?
-
-## Switch Statements
-
-Often a switch statement evaluates (and reads) faster than and if/else statement. See for yourself:
-
-```
-switch (level) {
-  case 'One':
-  title = 'Level 1';
-  break;
-  case 'Two':
-  title = Level 2';
-  break;
-  default:
-  title = 'No title';
-  break;
-}
-```
-
 See if you can read the code above. How might you translate that into an if/else statement?
+
+## Unary Operator
+
+Because of type coercion in Javascript, you can check equality with a single operand. This is called a Unary Operator. For example..
+
+```
+var score = 90;
+
+if(score){
+  console.log("test has been taken");
+}
+```
+As long as score is set to something other than `(false, 0, '')`, this expression will evaluate to true. Be careful with this mode of conditional checking, because it often leads to unexpected results. For example..
+
+```
+var score = '0';
+
+if(score){
+  console.log("test has been taken");
+}
+```
+Here, score actually evaluates to true, even though the variable is set to the string '0'. You may or may not desire this result. 
 
