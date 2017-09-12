@@ -51,14 +51,16 @@ What would you need to change to get the output to change?
 
 Comparison and logical operators are natural segways into IF statements. These statements check a condition, and execute areas of the program accordingly. See if you can tell what the below if statement is trying to do:
 
-```var score = 75;    // Score
+```
+var gameActive = true;
+var score = 75;    // Score
 var msg = '';      // Message
 
 function congratulate() {
   msg += 'Congratulations! ';
 }
 
-if (score >= 50) {  // If score is 50 or more
+if (gameActive == true && score >= 50) {  // If score is 50 or more
   congratulate();
   msg += 'Proceed to the next round.';
 } else {
