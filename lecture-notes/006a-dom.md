@@ -10,9 +10,9 @@ The DOM takes a tree structure in that all nodes flow from a single trunk, the D
 ## Four Types of Nodes
 
 * Document - The top of the tree i.e. the starting point
-* Element - The structural components of the page
-* Attribute - The descriptive parts of the element contained inside their open tags
-* Text - The content containing element of the page that cannot contain another element
+* Element - The structural components of the page (ex. div, table, td)
+* Attribute - The descriptive parts of the element contained inside their open tags (ex. style, id)
+* Text - The content containing element of the page that cannot contain another element (ex. p, li)
 
 ## Working with the DOM tree
 
