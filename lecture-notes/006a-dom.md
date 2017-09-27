@@ -16,5 +16,49 @@ The DOM takes a tree structure in that all nodes flow from a single trunk, the D
 
 ## Working with the DOM tree
 
+### Access the elements
+
+#### Select an individual element node 
+* `getElementById()` uses the value of an element's unique id attribute 
+* `querySelector()` uses a CSS selector and returns first match
+
+#### Select multiple elements (nodelists)
+* `getElementsByClassName()` selects all elements matching class name
+* `getElementsByTagName()` selects all elements matching tag name
+* `querySelectorAll()` selects all matching elements using CSS
+
+#### Traverse between elements
+* `parentNode()` selects parent of current element
+* `previousSibling` selects previous sibling of current element
+* `nextSibling` selects next sibling of current element
+* `firstChild` selects first child of current element
+* `lastChild` selects last child of current element
+
+### Work with elements
+
+#### Text Nodes
+* `nodeValue` access/update contents of text node
+
+#### HTML Content
+* `innerHTML` access/update child elements and text content
+* `textContent` access/update just text content
+* `createElement()` adds element node to tree
+* `createTextNode()` adds text node to tree
+* `appendChild()` or `removeChild()` manipulate the DOM by adding / removing an element
+
+#### Access / Update Values
+* `className` or `id` you can change the class or id attribute of an element
+* `hasAttribute()`, `getAttribute()`, `setAttribute()`, `removeAttribute()` check an attribute's existence, get the attribute's value, update the attribute's value, and remove an attribute
+
+### Example
+
+```
+// Select the element and store it in a variable.
+var el = document.getElementById('one');
+
+// Change the value of the class attribute.
+el.className = 'cool';
+```
+
 
 
