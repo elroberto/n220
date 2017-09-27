@@ -60,5 +60,14 @@ var el = document.getElementById('one');
 el.className = 'cool';
 ```
 
+```
+<ul>
+  <li id="one" class="hot"><em>fresh</em> figs</li>
+  <li id="two" class="hot">pine nuts</li>
+  <li id="three" class="hot">honey</li>
+  <li id="four">balsamic vinegar</li>
+</ul>
+```
+
 
 
