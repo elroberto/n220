@@ -38,7 +38,7 @@ An event is a way for the application, more specifically browser in our case, to
 2. Indicate event (sometimes called binding)
 3. State the code you want to run when the event occurs
 
-```
+```javascript
 function checkUsername() {                             // Declare function
   var elMsg = document.getElementById('feedback');     // Get feedback element
   if (this.value.length < 5) {                         // If username too short
@@ -57,7 +57,7 @@ elUsername.addEventListener('blur', checkUsername, false);
 
 ### Using Event Listeners with Parameters
 
-```
+```javascript
 var elUsername = document.getElementById('username');   // Username input
 var elMsg      = document.getElementById('feedback');   // Error msg element
 
@@ -81,7 +81,7 @@ Notice `blur` event is bound to an anonymous function, which then calls `checkUs
 
 An Event contains data about the event in an object form. This object is passed as a parameter to the event handler. Developers use `e` as the event object variable. 
 
-```
+```javascript
 function checkLength(e, minLength) {         // Declare function
   var el, elMsg;                             // Declare variables
   if (!e) {                                  // If event object doesn't exist
