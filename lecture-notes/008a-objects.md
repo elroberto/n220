@@ -7,6 +7,8 @@ A complex data type in Javascript, an object is a grouping of properties (variab
 
 Both properties and methods have a name value called a **key**. The value of a property is always one of (String, Number, Boolean, Array, Object). The value of a method is always a function(). 
 
+In JS, arrays **are** objects (remember the `.length` property). The hold a related set of key value pairs. Arrays can also be inside objects. An Object can contain Arrays. 
+
 ```javascript
 var hotel = {
   name : 'Quay',
@@ -88,3 +90,10 @@ var elHotel2 = document.getElementById('hotel2');
 elHotel2.textContent = details2;
 ```
 
+## Built-in Objects
+
+1. [Browser Object Model](https://github.com/elroberto/n220/blob/master/javascriptbook.com/c03/js/window-object.js)
+2. [Document Object Model](https://github.com/elroberto/n220/blob/master/javascriptbook.com/c03/js/document-object.js)
+3. Global Javascript Objects (String, Number, Math, Date, etc)
+
+An Object Model is a group of objects. 
