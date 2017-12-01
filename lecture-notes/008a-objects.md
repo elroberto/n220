@@ -7,7 +7,7 @@ A complex data type in Javascript, an object is a grouping of properties (variab
 
 Both properties and methods have a name value called a **key**. The value of a property is always one of (String, Number, Boolean, Array, Object). The value of a method is always a function(). 
 
-In JS, arrays **are** objects (remember the `.length` property). The hold a related set of key value pairs. Arrays can also be inside objects. An Object can contain Arrays. 
+In JS, arrays **are** objects (remember the `.length` property). They hold a related set of key value pairs. Arrays can also be inside objects. An Object can contain Arrays. 
 
 ```javascript
 var hotel = {
