@@ -65,40 +65,36 @@ Tests have a natural correlation to Requirements. In large programming shops, it
 Start expresssing your program in English prose. Don't use first or second person though, use a computational perspective. Here is an example of pseudo code for paper, rock, scissors assignment.
 
 ```
-/*
-Define Players
- */
-//enter name of player 1
-//define player 1
-//enter name of player 1
-//define player 2
+Computer Requests to Define Players
 
-/*
-Define Throws
- */
-//enter player 1 throws
-//define player 1 throws
-//enter player 2 throws
-//define player 2 throws
+enter name of player 1
+define player 1
+enter name of player 1
+define player 2
 
-/*
+Computer Requests to Define Throws
+
+enter player 1 throws
+define player 1 throws
+enter player 2 throws
+define player 2 throws
+
 Handle Tie Case
- */
-//if player 1 throws == player 2 throws, game is tie
 
-/*
+if player 1 throws == player 2 throws, game is tie
+
 Handle Cases
- */
-//if player 1 throws paper
-	//if player 2 throws rock, player 1 wins
-	//if player 2 throws scissors, player 2 wins
 
-//if player 1 throws rock
-	//if player 2 throws scissors, player 1 wins
-	//if player 2 throws paper, player 2 wins
+if player 1 throws paper
+  if player 2 throws rock, player 1 wins
+  if player 2 throws scissors, player 2 wins
 
-//if player 1 throws scissors
-	//if player 2 throws rock, player 2 wins
-	//if player 2 throws paper, player 1 wins
+if player 1 throws rock
+  if player 2 throws scissors, player 1 wins
+  if player 2 throws paper, player 2 wins
+
+if player 1 throws scissors
+  if player 2 throws rock, player 2 wins
+  if player 2 throws paper, player 1 wins
 
 ```
