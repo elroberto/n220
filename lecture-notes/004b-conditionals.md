@@ -6,7 +6,7 @@ Comparison operators (==, !=, <, >, etc) usually return values of true or false.
 
 `((5 > 4) && (4 < 5)) //true`
 
-This statement actually has 4 operands and 3 expressions. You can probably cound the operands, but can you find the expressions? `5 > 4` and `4 < 5` are both expressions. Expression 1 and Expression 2 combine to form a third expression, which in this example, evaluates to true. 
+This statement actually has 4 operands and 3 expressions. You can probably count the operands, but can you find the expressions? `5 > 4` and `4 < 5` are both expressions. Expression 1 and Expression 2 combine to form a third expression, which in this example, evaluates to true. 
 
 Here are the rest of the logical operators:
 
