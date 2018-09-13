@@ -18,7 +18,7 @@ Operator | Description
 
 Also keep in mind that logical expressions are evaluated from left to right, and exit, or short circuit, once the conditional is satisfied. For example, `true || false` stops after the first expression because it is true and the logical or only needs one condition. Here are some other examples:
 
-```
+```javascript
 true && true //true
 true && false //false
 true || false //true
@@ -29,7 +29,7 @@ false || false //false
 
 Try to guess if the output is true or false:
 
-```
+```javascript
 var score1 = 8;   // Round 1 score
 var score2 = 8;   // Round 2 score
 var pass1 = 6;    // Round 1 pass mark
@@ -96,7 +96,7 @@ See if you can read the code above. How might you translate that into an if/else
 
 Because of type coercion in Javascript, you can check equality with a single operand. This is called a Unary Operator. For example..
 
-```
+```javascript
 var score = 90;
 
 if(score){
@@ -105,7 +105,7 @@ if(score){
 ```
 As long as score is set to something other than `(false, 0, '')`, this expression will evaluate to true. Be careful with this mode of conditional checking, because it often leads to unexpected results. For example..
 
-```
+```javascript
 var score = '0';
 
 if(score){
