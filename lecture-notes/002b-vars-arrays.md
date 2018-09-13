@@ -109,5 +109,5 @@ One can also use the plus sign to add strings together. This is called String co
 ```
 var first = "Hello";
 var last = "World";
-var else = first + last; //'HelloWorld';
+var firstLast = first + last; //'HelloWorld';
 ```
