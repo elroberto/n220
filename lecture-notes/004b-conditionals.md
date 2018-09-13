@@ -51,7 +51,7 @@ What would you need to change to get the output to change?
 
 Comparison and logical operators are natural segways into IF statements. These statements check a condition, and execute areas of the program accordingly. See if you can tell what the below if statement is trying to do:
 
-```
+```javascript
 var gameActive = true;
 var score = 75;    // Score
 var msg = '';      // Message
@@ -77,7 +77,7 @@ How might we modify this for a condition where the score is less than 50?
 
 Often a switch statement evaluates (and reads) faster than and if/else statement. See for yourself:
 
-```
+```javascript
 switch (level) {
   case 'One':
   title = 'Level 1';
