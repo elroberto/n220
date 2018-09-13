@@ -4,7 +4,7 @@
 
 Programs analyze values to determine if they match expected results. Using results, you can decide which path to take. We typically use comparison operators embedded in conditional if/then/else statements to make those decisions. 
 
-```
+```javascript
 if (gpa > 3.6) {
   document.write('You made the Dean's list');
 } else {
@@ -26,7 +26,7 @@ Operator | Description
 \<= | Checks to see if one value is lesser than or equal to another
 
 In any condition, there is typically one operator and two operands (see below). Operands can be expressions.  
-```
+```javascript
 //Comparing two operands
 'IU' == 'UK' //false
 'Hello' == 'Hello' //true
@@ -51,7 +51,7 @@ In any condition, there is typically one operator and two operands (see below). 
 ```
 What is the output of the following script:
 
-```
+```javascript
 var pass = 50;   // Pass mark
 var score = 90;  // Score
 
@@ -65,7 +65,7 @@ el.innerHTML = 'Level passed: ' + hasPassed;
 
 How about now:
 
-```
+```javascript
 var score1 = 90;     // Round 1 score
 var score2 = 95;     // Round 2 score
 var highScore1 = 75; // Round 1 high score
