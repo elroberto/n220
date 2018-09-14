@@ -6,7 +6,7 @@ Programs analyze values to determine if they match expected results. Using resul
 
 ```javascript
 if (gpa > 3.6) {
-  document.write('You made the Dean's list');
+  document.write('You made the Dean\'s list');
 } else {
   document.write('Try again');
 }
