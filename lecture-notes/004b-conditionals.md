@@ -83,7 +83,7 @@ switch (level) {
   title = 'Level 1';
   break;
   case 'Two':
-  title = Level 2';
+  title = 'Level 2';
   break;
   default:
   title = 'No title';
